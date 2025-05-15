@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - Каталог деталей для принтеров</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">PrinterParts</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section style="text-align: center; padding: 50px 0;">
+            <h1>Добро пожаловать в каталог деталей для принтеров</h1>
+            <p style="margin: 20px 0; font-size: 1.2rem;">Оригинальные и совместимые запчасти для вашей печатной техники</p>
+            <a href="catalog.html" class="btn">Перейти в каталог</a>
+        </section>
+        
+        <h2 style="text-align: center; margin: 40px 0;">Популярные модели</h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">
+            <div class="printer-card">
+                <div class="printer-image">HP LaserJet Pro M404dn</div>
+                <div class="printer-info">
+                    <h3>HP LaserJet Pro M404dn</h3>
+                    <p>Лазерный принтер с высокой скоростью печати</p>
+                    <a href="printers/printer1.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <div class="printer-card">
+                <div class="printer-image">Canon i-SENSYS LBP623Cdw</div>
+                <div class="printer-info">
+                    <h3>Canon i-SENSYS LBP623Cdw</h3>
+                    <p>Цветной лазерный принтер с Wi-Fi</p>
+                    <a href="printers/printer2.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <div class="printer-card">
+                <div class="printer-image">Epson L805</div>
+                <div class="printer-info">
+                    <h3>Epson L805</h3>
+                    <p>Струйный фотопринтер с СНПЧ</p>
+                    <a href="printers/printer3.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2023 Каталог деталей для принтеров. Все права защищены.</p>
+            <p>Телефон: +7 (123) 456-78-90 | Email: info@printerparts.ru</p>
+        </div>
+    </footer>
+</body>
+</html>
