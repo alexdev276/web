@@ -18,6 +18,19 @@ header {
     padding: 1rem 0;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-links a.active {
+    background-color: #3498db;
+    color: white !important;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -182,4 +195,15 @@ footer {
     .nav-links li {
         margin: 0 10px;
     }
+    
+}
+.printer-image {
+    height: 200px;
+    overflow: hidden; /* Обрезаем лишнее */
+}
+
+.printer-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Заполняет область без искажений */
 }
